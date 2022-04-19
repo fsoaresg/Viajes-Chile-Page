@@ -1,0 +1,127 @@
+/*Estilo Body*/
+
+body {
+    font-family: "Raleway", "Open Sans";
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/* Estilo Navbar */
+
+.navbar {
+    background-color: transparent !important;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans';
+    font-size: x-large;
+    color: #FFFFFF;
+    padding-left: 2rem;
+    padding-top: 0rem !important;
+  
+}
+
+.navbar-nav {
+    margin-right: 1.625rem;
+}
+
+.nav-item {
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+    text-align: right;
+}
+
+/* Estilo Quienes Somos */
+
+h1 {
+    font-family: "Raleway";
+    font-size: 400;
+    padding-top: 4rem;
+    padding-bottom: .625rem;
+}
+
+.card1 {
+    background-color: #000000;
+}
+
+.card-body1 {
+    background-color: #0DCAF0;
+    padding: 0;
+    padding-top: .300rem;
+    padding-bottom: .300rem;
+}
+
+.card-body2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.fa-solid {
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+/* Estilo Destacados */
+
+h2 {
+    margin-bottom: .300rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 9rem;
+}
+
+.card2 {
+    background-color: #0DCAF0;
+    color:#FFFFFF;
+    text-align: left;
+    border-color: #FFFFFF;
+    box-sizing: .625rem;
+}
+
+.card-text1 {
+    font-size:small;
+}
+
+/* Estilo Contacto */
+
+.btn-success {
+    background-color: #0DCAF0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#form-title {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    color: #FFFFFF;
+}
+
+/* Estilo Footer */
+
+footer {
+    background-color: #0DCAF0;
+    color:#FFFFFF;
+    font-weight: bold !important;
+    font-family: "Raleway";
+    width: 100%;
+    padding:.125rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.fa-brands {
+    color: #FFFFFF;
+}
+
+.btn1 {
+    border: none;
+}
+
