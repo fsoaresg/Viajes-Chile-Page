@@ -12,6 +12,7 @@ body {
     background-color: transparent !important;
     color: #FFFFFF;
     width: 100%;
+    display: flex !important;
 }
 
 .navbar-brand {
@@ -20,7 +21,7 @@ body {
     color: #FFFFFF;
     padding-left: 2rem;
     padding-top: 0rem !important;
-  
+
 }
 
 .navbar-nav {
@@ -31,6 +32,16 @@ body {
     font-family: 'Open Sans';
     color: #FFFFFF;
     text-align: right;
+}
+
+/*Estilo Smooth Scroll */
+
+.bg-interno {
+    background-color: #0DCAF0;
+    transition: all 2s ease;
+    display: flex;
+    padding-top: .300rem;
+    padding-bottom: .300rem;
 }
 
 /* Estilo Quienes Somos */
@@ -80,22 +91,23 @@ h2 {
 
 .card2 {
     background-color: #0DCAF0;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: left;
     border-color: #FFFFFF;
     box-sizing: .625rem;
 }
 
 .card-text1 {
-    font-size:small;
+    font-size: small;
 }
 
 /* Estilo Contacto */
 
-.btn-success {
+.btn-dark {
     background-color: #0DCAF0;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-color: #0DCAF0;
 }
 
 #form-title {
@@ -108,11 +120,11 @@ h2 {
 
 footer {
     background-color: #0DCAF0;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-weight: bold !important;
     font-family: "Raleway";
     width: 100%;
-    padding:.125rem;
+    padding: .125rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -124,4 +136,3 @@ footer {
 .btn1 {
     border: none;
 }
-

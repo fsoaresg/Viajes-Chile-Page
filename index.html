@@ -24,33 +24,33 @@
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand ml-auto" href="#">
-                <img src="/assets/img/viajes.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
-                Viajes Chile
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarScroll">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-interno fixed-top">
+
+        <a class="navbar-brand ml-auto" href="#">
+            <img src="/assets/img/viajes.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            Viajes Chile
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-nowrap" aria-current="page" href="#quienes-somos">Quienes Somos</a>
+                    <a id="nav-item1" class="nav-link active text-nowrap" aria-current="page"
+                        href="#quienes-somos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
+                    <a id="nav-item2" class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                    <a id="nav-item3" class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
                 </li>
             </ul>
-        </div>
         </div>
     </nav>
 
@@ -186,48 +186,52 @@
         <hr>
         <div class="container">
             <div class="row">
-                <div class="col d-flex align-items-stretch">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
                     <div class="card2 mx-auto mb-3" style="width: 15rem;">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h6 class="card-title">Lorem ipsum dolor sit.</h6>
-                            <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit justo
+                            <h6 id="img1" class="card-title1">Lorem ipsum dolor sit.</h6>
+                            <p id="cardP1" class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit
+                                justo
                                 porttitor
                                 integer luctus dui est, aliquet rutrum ante urna feugiat.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex align-items-stretch">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
                     <div class="card2 mx-auto mb-3" style="width: 15rem;">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h6 class="card-title">Consectetur adipiscing elit.</h6>
-                            <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit justo
+                            <h6 id="img2" class="card-title">Consectetur adipiscing elit.</h6>
+                            <p id="cardP2" class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit
+                                justo
                                 porttitor
                                 integer luctus dui est, aliquet rutrum ante urna feugiat.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex align-items-stretch">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
                     <div class="card2 mx-auto mb-3" style="width: 15rem;">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h6 class="card-title">Sed do eiudmod tempor inciditunt ut labore.</h6>
-                            <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit justo
+                            <h6 id="img3" class="card-title">Sed do eiudmod tempor inciditunt ut labore.</h6>
+                            <p id="cardP3" class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit
+                                justo
                                 porttitor
                                 integer luctus dui est, aliquet rutrum ante urna feugiat.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex align-items-stretch">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-flex align-items-stretch">
                     <div class="card2 mx-auto mb-3" style="width: 15rem;">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h6 class="card-title">Ut enim ad minim veniam.</h6>
-                            <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit justo
+                            <h6 id="img4" class="card-title">Ut enim ad minim veniam.</h6>
+                            <p id="cardP4" class="card-text1">Lorem ipsum dolor sit amet consectetur adipiscing, elit
+                                justo
                                 porttitor
                                 integer luctus dui est, aliquet rutrum ante urna feugiat.</p>
                         </div>
@@ -246,24 +250,21 @@
                 <form>
                     <div class="form-group">
                         <label id="form-title" for="nombre">Nombre</label>
-                        <input name="nombre" required type="text" id="nombre"
-                        class="form-control" placeholder="">
+                        <input name="nombre" required type="text" id="nombre" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
                         <label id="form-title" for="asunto">Asunto</label>
-                        <textarea required placeholder=""
-                        class="form-control" name="asunto" id="asunto"
-                        cols="1" rows="1"></textarea>
+                        <textarea required placeholder="" class="form-control" name="asunto" id="asunto" cols="1"
+                            rows="1"></textarea>
                     </div>
                     <div class="form-group">
                         <label id="form-title" for="mensaje">Mensaje</label>
-                        <textarea required placeholder=""
-                        class="form-control" name="mensaje" id="mensaje"
-                        cols="30" rows="5"></textarea>
+                        <textarea required placeholder="" class="form-control" name="mensaje" id="mensaje" cols="30"
+                            rows="5"></textarea>
                     </div>
                     <div class="form-group">
-                        <button class="btn-success btn" type="submit">
-                        Enviar
+                        <button id="enviarMensaje" class="btn-dark btn" type="submit">
+                            Enviar
                         </button>
                     </div>
                 </form>
@@ -283,20 +284,20 @@
 
                     </div>
                 </div>
-               
+
                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-center">
 
-                    <a class="btn1 btn-outline-light  m-1" href="https://github.com" role="button"><i
+                    <a class="btn1 btn-outline-light m-1" target="_blank" href="https://github.com" role="button"><i
                             class="fa-brands fa-2x fa-github-square"></i></a>
 
-                    <a class="btn1 btn-outline-light  m-1" href="https://cl.linkedin.com" role="button"><i
-                            class="fa-brands fa-2x fa-linkedin"></i></a>
+                    <a class="btn1 btn-outline-light  m-1" target="_blank" href="https://cl.linkedin.com"
+                        role="button"><i class="fa-brands fa-2x fa-linkedin"></i></a>
 
-                    <a class="btn1 btn-outline-light  m-1" href="https://twitter.com/?lang=es" role="button"><i
-                            class="fa-brands fa-2x fa-twitter-square"></i></a>
+                    <a class="btn1 btn-outline-light  m-1" target="_blank" href="https://twitter.com/?lang=es"
+                        role="button"><i class="fa-brands fa-2x fa-twitter-square"></i></a>
 
-                    <a class="btn1 btn-outline-light  m-1" href="https://www.facebook.com/" role="button"><i
-                            class="fa-brands fa-2x fa-facebook-square"></i></a>
+                    <a class="btn1 btn-outline-light  m-1" target="_blank" href="https://www.facebook.com/"
+                        role="button"><i class="fa-brands fa-2x fa-facebook-square"></i></a>
 
                 </div>
             </div>
